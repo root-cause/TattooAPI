@@ -1,0 +1,36 @@
+<meta>
+    <info name="TattooAPI" author="rootcause" type="script" />
+
+    <!-- Files -->
+    <script src="TattooAPI.cs" type="server" lang="csharp" />
+    <script src="TattooAPI.js" type="client" lang="javascript" />
+
+    <!-- Exported Functions (Player) -->
+    <export class="TattooAPI" function="LoadTattoos" />
+    <export class="TattooAPI" function="AddTattoo" />
+    <export class="TattooAPI" function="HasTattoo" />
+    <export class="TattooAPI" function="RemoveTattoo" />
+    <export class="TattooAPI" function="RemoveAllTattoos" />
+    <export class="TattooAPI" function="SaveTattoos" />
+    <export class="TattooAPI" function="GetTattoos" />
+
+    <!-- Exported Functions (Collection) -->
+    <export class="TattooAPI" function="IsCollectionValid" />
+    <export class="TattooAPI" function="GetTattooCollections" />
+    <export class="TattooAPI" function="GetCollectionTattoos" />
+
+    <!-- Exported Functions (Tattoo) -->
+    <export class="TattooAPI" function="IsTattooValid" />
+    <export class="TattooAPI" function="IsTattooNameValid" />
+    <export class="TattooAPI" function="GetAllTattoos" />
+    <export class="TattooAPI" function="GetTattooLocalizedName" />
+    <export class="TattooAPI" function="GetTattooMaleHash" />
+    <export class="TattooAPI" function="GetTattooFemaleHash" />
+    <export class="TattooAPI" function="GetTattooZone" />
+    <export class="TattooAPI" function="GetTattooZoneID" />
+    <export class="TattooAPI" function="GetTattooPrice" />
+    <export class="TattooAPI" function="GetTattooCollection" />
+
+    <!-- Libraries -->
+    <assembly ref="Newtonsoft.Json.dll" />
+</meta>
